@@ -276,7 +276,7 @@ app.get('/country/match', (req, res, next) => {
 	return res.status(200).json({
 		status: 'success',
 		countries: matches
-			? matches.map(match => {
+			? _.uniq(matches).map(match => {
 
 				const clean = val => val.toLowerCase().trim().replace(/\s+/g, '');
 
