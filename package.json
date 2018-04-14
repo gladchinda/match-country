@@ -1,0 +1,29 @@
+{
+    "name": "match-country",
+    "version": "1.0.0",
+    "description": "Simple API endpoint for fetching country names from a search querystring using regular expressions.",
+    "engines": {
+        "node": "8.10.0",
+        "npm": "5.8.0"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gladchinda/match-country.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gladchinda/match-country/issues",
+        "email": "gladxeqs@gmail.com"
+    },
+    "keywords": ["match", "country", "country-match", "regex"],
+    "author": "Glad Chinda <gladxeqs@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/gladchinda/match-country/blob/master/README.md",
+    "dependencies": {
+        "express": "^4.16.3",
+        "lodash": "^4.17.5",
+        "morgan": "^1.9.0"
+    }
+}
